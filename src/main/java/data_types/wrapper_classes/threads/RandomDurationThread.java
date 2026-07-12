@@ -4,7 +4,7 @@ public class RandomDurationThread extends Thread {
     @Override
     public void run() {
         IO.println(this.getName() + " is starting.");
-        for(int i = 0; i < 5; i++) {
+        for(int i = 0; i < 10; i++) {
             try {
                 var sleepTime = i * 10;
                 Thread.sleep(sleepTime);

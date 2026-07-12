@@ -1,7 +1,6 @@
 package data_types.wrapper_classes.collections;
 
 import java.util.HashSet;
-import java.util.Objects;
 import java.util.Set;
 
 public class SetDemo {

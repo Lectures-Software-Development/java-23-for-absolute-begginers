@@ -3,8 +3,9 @@ import data_types.wrapper_classes.collections.CollectionsBasicDemo;
 import data_types.wrapper_classes.collections.GenericListDemo;
 import data_types.wrapper_classes.collections.MapDemo;
 import data_types.wrapper_classes.collections.SetDemo;
-import data_types.wrapper_classes.threads.ListJvmThreadsDemo;
-import data_types.wrapper_classes.threads.MultipleUserThreadsDemo;
+import data_types.wrapper_classes.threads.*;
+
+import java.util.List;
 
 
 /*@FunctionalInterface
@@ -115,10 +116,29 @@ public class Main {
 
         //MapDemo.runMapDemo();
 
+        /**
+         * Threads.
+         * */
+
+
         //ListJvmThreadsDemo.runListJvmThreadsDemo();
 
         //MultipleUserThreadsDemo.main();
 
-        
+        //RunnableDemo.main();
+
+        //new RandomDurationThread().start();
+
+        //new Thread(new RandomDurationRunnable()).start();
+        //new Thread(new RandomDurationRunnable()).start();
+
+        //new RandomDurationThread().start();
+
+        //ExecutorServiceDemo.runExecutorServiceDemo();
+
+        //LambdaThreadsDemo.runLambdaThreadsDemo();
+
+        FixedThreadPoolDemo.main();
+
     }
 }
