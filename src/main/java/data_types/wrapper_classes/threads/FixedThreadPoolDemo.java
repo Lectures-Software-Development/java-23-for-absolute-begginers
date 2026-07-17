@@ -17,11 +17,8 @@ public class FixedThreadPoolDemo {
             } catch (InterruptedException _) {
             }
         }
-
-
     }
 }
-
 
 class RandomDurationCallable implements Callable<Boolean> {
     @Override
